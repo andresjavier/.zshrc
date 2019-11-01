@@ -1,0 +1,6 @@
+#!/bin/zsh
+LECTURA=`cat $HOME/.lectura`
+man $LECTURA
+rm $HOME/.lectura
+kill -9 $PPID
+
