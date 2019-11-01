@@ -1,0 +1,12 @@
+# Esto permite de la manera más suave que se me ha ocurrido que el programa tree, necesario para buscar, esté siempre disponible. 
+# La otra manera es copiarlo en /usr/bin pero esto requiere permisos de administrador y puedes hacerlo tu mismo.
+PATH=$PATH:`pwd`
+
+# Estas tres lineas sencillamente sustituyen ocultándolo el perfil de zshrc del sistema por el de este repositorio.
+# RECUERDA que tu .zshrc seguirá disponible en .zshrc.old
+mv $HOME/.zshrc $HOME/.zshrc.old      
+cp zshrc $HOME/.zshrc
+
+# Esta línea también oculta el script 'leer', necesario para la función leer
+mv leer $HOME/.leer 
+
