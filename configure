@@ -10,3 +10,4 @@ cp zshrc $HOME/.zshrc
 # Esta línea también oculta el script 'leer', necesario para la función leer
 mv leer $HOME/.leer 
 
+Es IMPORTANTE que recuerdes que este archivo debe ejecutarse desde su mismo directorio.
