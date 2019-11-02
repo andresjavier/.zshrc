@@ -18,8 +18,8 @@ Por ejmplo:
 
 'busca ifconfig' buscará las coincidicencias con 'ifconfig' en todo árbol de directorios subsudiario de aquel en que se lance.
 
-cd
-busca foto.jpg 
+# cd
+# busca foto.jpg 
 
 buscará el archivo foto.jpg en todo tu árbol de directorios HOME.
 
@@ -27,7 +27,7 @@ buscará el archivo foto.jpg en todo tu árbol de directorios HOME.
 
 'borra' borrará tanto un archivo como todo un árbol de directorios. Admite sólo un argumento. Por ejemplo:
 
-'borra #HOME/MisDocs' 
+# borra #HOME/MisDocs' 
 
 borrará esa entrada de directorio, tanto si se refiere a un directorio como a un archivo. Si es un directorio, se te pedirá confirmación para eliminar todo su árbol subsidiario.
 
@@ -37,13 +37,13 @@ explora admite cero o un argumento. En el primer caso, devuelve todo el árbol d
 
 Por ejemplo:
 
-cd /
-explora
+# cd /
+# explora
 
 devolverá todo el árbol de directorios del sistema.
 
-cd
-explora /usr/share
+# cd
+# explora /usr/share
 
 devolverá todo el árbol de /usr/share
 
