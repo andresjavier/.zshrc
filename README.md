@@ -18,7 +18,10 @@ Por ejmplo:
 
 'busca ifconfig' buscará las coincidicencias con 'ifconfig' en todo árbol de directorios subsudiario de aquel en que se lance.
 
-busca $HOME/foto.jpg buscará el archivo foto.jpg en todo tu árbol de directorios HOME.
+cd
+busca foto.jpg 
+
+buscará el archivo foto.jpg en todo tu árbol de directorios HOME.
 
 #### borra
 
