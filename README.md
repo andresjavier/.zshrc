@@ -8,7 +8,9 @@ NOTA IMPORTANTE: El archivo configure debe lanzarse desde su mismo directorio.
 
 leer recoge sólo su primer argumento y abre un terminal aparte con la página de man correspondiente a tal argumento. La  consulta se vuelve más cómoda visualmente y el terminal se cierra al pulsar 'q'. Por ejemplo:
 
-'leer ifconfig' abre un terminal con la página 'man ifcongfig'
+# leer ifconfig
+
+abre un terminal con la página 'man ifcongfig'
 
 #### busca
 
@@ -24,6 +26,10 @@ buscará las coincidicencias con 'X' en todo árbol de directorios subsudiario d
 # busca foto.jpg 
 
 buscará el archivo foto.jpg en todo tu árbol de directorios HOME.
+
+# NOTA:
+
+Aunque las rutas de las coincidencias se muestren absolutas, las que se pueden indicar en el argumento sólo pueden ser subsidiarias del directorio en el que la función se ejecute.
 
 #### borra
 
