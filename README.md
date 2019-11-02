@@ -16,7 +16,9 @@ La función busca. Se han hecho cambios profundos en esta función, para elimina
 
 Por ejmplo: 
 
-'busca ifconfig' buscará las coincidicencias con 'ifconfig' en todo árbol de directorios subsudiario de aquel en que se lance.
+# busca X
+
+buscará las coincidicencias con 'X' en todo árbol de directorios subsudiario de aquel en que se lance. Si X es un directorio se mostrará tan sólo la ruta de tal directorio, sin profundizar en los subsidiarios del mismo; si X es un archivo se mostrarán todas las coincidencias, al igual que si es un enlance simbólico.
 
 # cd
 # busca foto.jpg 
