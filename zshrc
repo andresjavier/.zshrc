@@ -20,7 +20,7 @@ busca(){
 	IFS=':'
 	X=$PWD'/'$1
 	if [ -e $X ]; then echo $X; fi
-	A=(`2>/dev/null ls -aR $PWD | sed  -n '/:/p; /permitted/d' | tr -d '\n.'`)
+	A=(`2>/dev/null ls -aR $PWD | sed  -n '/:/p' | tr -d '\n'`)
 	for D in $A; do
 		C=$D'/'$1
 		if [ -d $C ]; 
