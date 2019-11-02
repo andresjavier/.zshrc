@@ -29,7 +29,7 @@ buscará el archivo foto.jpg en todo tu árbol de directorios HOME.
 
 # NOTA:
 
-Aunque las rutas de las coincidencias se muestren absolutas, las que se pueden indicar en el argumento sólo pueden ser subsidiarias del directorio en el que la función se ejecute.
+Aunque las rutas de las coincidencias se muestren absolutas, las que se pueden indicar en el argumento sólo pueden ser subsidiarias del directorio en el que la función se ejecute. Así mismo es IMPORTANTE recordar que esta función es susceptible de múltiples restricciones de seguridad, de manera que sólo mostrará coincidencias cuyo propietario sea el que la invoque. Sería interesante desarrollar una variante que sortee tales restricciones.
 
 #### borra
 
