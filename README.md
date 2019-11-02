@@ -16,7 +16,7 @@ La función busca. Se han hecho cambios profundos en esta función, para elimina
 
 Por ejmplo: 
 
-'busca ifconfig' buscar las coincidicencias con 'ifconfig' en todo árbol de directorios subsudiario de aquel en que se lance.
+'busca ifconfig' buscará las coincidicencias con 'ifconfig' en todo árbol de directorios subsudiario de aquel en que se lance.
 
 busca $HOME/foto.jpg buscará el archivo foto.jpg en todo tu árbol de directorios HOME.
 
