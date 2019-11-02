@@ -50,7 +50,6 @@ Por ejemplo:
 
 devolverá todo el árbol de directorios del sistema.
 
-# cd
 # explora /usr/share
 
 devolverá todo el árbol de /usr/share
